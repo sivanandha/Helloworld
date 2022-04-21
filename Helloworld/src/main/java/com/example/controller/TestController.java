@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 @RestController
 public class TestController {
 	
-@RequestMapping(value="/welcome")
+@RequestMapping(value="/message")
 	public ModelAndView first()
 	{
 		return new ModelAndView("welcome");
